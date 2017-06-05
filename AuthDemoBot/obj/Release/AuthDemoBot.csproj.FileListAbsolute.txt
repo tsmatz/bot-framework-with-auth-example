@@ -1,0 +1,38 @@
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\Bot Application1.dll.config
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\Bot Application1.dll
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\Bot Application1.pdb
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\Autofac.dll
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\Chronic.dll
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\Microsoft.Bot.Builder.dll
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\Microsoft.Bot.Connector.dll
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\Newtonsoft.Json.dll
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\System.Net.Http.Formatting.dll
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\System.Web.Http.dll
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\System.Web.Http.WebHost.dll
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\Autofac.xml
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\Microsoft.Bot.Builder.xml
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\Microsoft.Bot.Connector.xml
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\Newtonsoft.Json.xml
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\System.IdentityModel.Tokens.Jwt.pdb
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\System.Net.Http.Formatting.xml
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\System.Web.Http.xml
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\System.Web.Http.WebHost.xml
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Demo\AuthDemoBot\AuthDemoBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Demo\AuthDemoBot\AuthDemoBot\obj\Release\Bot Application1.dll
+C:\Demo\AuthDemoBot\AuthDemoBot\obj\Release\Bot Application1.pdb
