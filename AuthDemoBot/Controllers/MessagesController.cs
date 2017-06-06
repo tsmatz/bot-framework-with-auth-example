@@ -83,10 +83,16 @@ namespace AuthDemoBot
                         await connector.Conversations.ReplyToActivityAsync(reply);
                     }
                 }
+                else if (activity.Text == "revoke")
+                {
+                    ConnectorClient connector = new ConnectorClient(new Uri(activity.ServiceUrl));
+                    Activity reply = activity.CreateReply("Click [here](https://account.activedirectory.windowsazure.com/), login, and remove this app (Bot with Office 365 Authentication Example).");
+                    await connector.Conversations.ReplyToActivityAsync(reply);
+                }
                 else
                 {
                     ConnectorClient connector = new ConnectorClient(new Uri(activity.ServiceUrl));
-                    Activity reply = activity.CreateReply("# Bot Help\n\nlogin -- Login to Office 365\n\nget mail -- Get your e-mail from Office 365");
+                    Activity reply = activity.CreateReply("# Bot Help\n\nType the following command. (You need your Office 365 Exchange Online subscription.)\n\nlogin -- Login to Office 365\n\nget mail -- Get your e-mail from Office 365\n\nrevoke -- Revoke permissions for accessing your e-mail");
                     await connector.Conversations.ReplyToActivityAsync(reply);
                 }
             }
@@ -120,7 +126,7 @@ namespace AuthDemoBot
                 if (message.Action == "add")
                 {
                     ConnectorClient connector = new ConnectorClient(new Uri(message.ServiceUrl));
-                    Activity reply = message.CreateReply("# Bot Help\n\nlogin -- Login to Office 365\n\nget mail -- Get your e-mail from Office 365");
+                    Activity reply = message.CreateReply("# Bot Help\n\nType the following command. (You need your Office 365 Exchange Online subscription.)\n\nlogin -- Login to Office 365\n\nget mail -- Get your e-mail from Office 365\n\nrevoke -- Revoke permissions for accessing your e-mail");
                     connector.Conversations.ReplyToActivityAsync(reply);
                 }
                 else if (message.Action == "remove")

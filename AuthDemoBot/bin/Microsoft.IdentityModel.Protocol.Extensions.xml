@@ -148,6 +148,20 @@
             <param name="cancel"><see cref="T:System.Threading.CancellationToken"/>.</param>
             <returns>document as a string.</returns>
         </member>
+        <member name="T:Microsoft.IdentityModel.Protocols.IConfigurationRetriever`1">
+            <summary>
+            Interface that defines methods to retrieve configuration.
+            </summary>
+            <typeparam name="T">The type of the configuration metadata.</typeparam>
+        </member>
+        <member name="M:Microsoft.IdentityModel.Protocols.IConfigurationRetriever`1.GetConfigurationAsync(System.String,Microsoft.IdentityModel.Protocols.IDocumentRetriever,System.Threading.CancellationToken)">
+            <summary>
+            Retrieves a populated configuration given an address and an <see cref="T:Microsoft.IdentityModel.Protocols.IDocumentRetriever"/>.
+            </summary>
+            <param name="address">Address of the discovery document.</param>
+            <param name="retriever">The <see cref="T:Microsoft.IdentityModel.Protocols.IDocumentRetriever"/> to use to read the discovery document.</param>
+            <param name="cancel">A cancellation token that can be used by other objects or threads to receive notice of cancellation. <see cref="T:System.Threading.CancellationToken"/>.</param>
+        </member>
         <member name="T:Microsoft.IdentityModel.Protocols.JsonWebKey">
             <summary>
             Represents a Json Web Key as defined in http://tools.ietf.org/html/draft-ietf-jose-json-web-key-25.
@@ -264,6 +278,14 @@
             Instantiaties a new <see cref="T:Microsoft.IdentityModel.Protocols.ConfigurationManager`1"/> that manages automatic and controls refreshing on configuration data.
             </summary>
             <param name="metadataAddress">the address to obtain configuration.</param>
+            <param name="docRetriever">the <see cref="T:Microsoft.IdentityModel.Protocols.IDocumentRetriever"/> that reaches out to obtain the configuration.</param>
+        </member>
+        <member name="M:Microsoft.IdentityModel.Protocols.ConfigurationManager`1.#ctor(System.String,Microsoft.IdentityModel.Protocols.IConfigurationRetriever{`0},Microsoft.IdentityModel.Protocols.IDocumentRetriever)">
+            <summary>
+            Instantiaties a new <see cref="T:Microsoft.IdentityModel.Protocols.ConfigurationManager`1"/> that manages automatic and controls refreshing on configuration data.
+            </summary>
+            <param name="metadataAddress">the address to obtain configuration.</param>
+            <param name="configRetriever">the <see cref="T:Microsoft.IdentityModel.Protocols.IConfigurationRetriever`1"/></param>
             <param name="docRetriever">the <see cref="T:Microsoft.IdentityModel.Protocols.IDocumentRetriever"/> that reaches out to obtain the configuration.</param>
         </member>
         <member name="M:Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationRetriever">
@@ -493,6 +515,11 @@
             </summary>
             <returns>The uri to use for a redirect.</returns>
         </member>
+        <member name="M:Microsoft.IdentityModel.Protocols.OpenIdConnectMessage.EnsureTelemetryValues(Microsoft.IdentityModel.Protocols.OpenIdConnectMessage)">
+            <summary>
+            Adds telemetry values to the message parameters.
+            </summary>
+        </member>
         <member name="P:Microsoft.IdentityModel.Protocols.OpenIdConnectMessage.AuthorizationEndpoint">
             <summary>
             Gets or sets the value for the AuthorizationEndpoint
@@ -546,6 +573,17 @@
         <member name="P:Microsoft.IdentityModel.Protocols.OpenIdConnectMessage.DomainHint">
             <summary>
             Gets or sets 'domain_hint'.
+            </summary>
+        </member>
+        <member name="P:Microsoft.IdentityModel.Protocols.OpenIdConnectMessage.EnableTelemetryParameters">
+            <summary>
+            Gets or sets whether parameters for the library and version are sent on the query string for this <see cref="T:Microsoft.IdentityModel.Protocols.OpenIdConnectMessage"/> instance. 
+            This value is set to the value of EnableTelemetryParametersByDefault at message creation time.
+            </summary>
+        </member>
+        <member name="P:Microsoft.IdentityModel.Protocols.OpenIdConnectMessage.EnableTelemetryParametersByDefault">
+            <summary>
+            Gets or sets whether parameters for the library and version are sent on the query string for all instances of <see cref="T:Microsoft.IdentityModel.Protocols.OpenIdConnectMessage"/>. 
             </summary>
         </member>
         <member name="P:Microsoft.IdentityModel.Protocols.OpenIdConnectMessage.Error">
@@ -628,11 +666,16 @@
             Gets or sets 'redirect_uri'.
             </summary>
         </member>
+        <member name="P:Microsoft.IdentityModel.Protocols.OpenIdConnectMessage.RefreshToken">
+            <summary>
+            Gets or sets 'refresh_token'.
+            </summary>
+        </member>
         <member name="P:Microsoft.IdentityModel.Protocols.OpenIdConnectMessage.RequestType">
             <summary>
             Gets or set the request type for this message
             </summary>
-            <remarks>This is helpful when sending differnt messages through a common routine, when extra parameters need to be set or checked.</remarks>
+            <remarks>This is helpful when sending different messages through a common routine, when extra parameters need to be set or checked.</remarks>
         </member>
         <member name="P:Microsoft.IdentityModel.Protocols.OpenIdConnectMessage.RequestUri">
             <summary>
@@ -736,6 +779,16 @@
         <member name="P:Microsoft.IdentityModel.Protocols.OpenIdConnectConfiguration.CheckSessionIframe">
             <summary>
             Gets or sets the check_session_iframe.
+            </summary>
+        </member>
+        <member name="P:Microsoft.IdentityModel.Protocols.OpenIdConnectConfiguration.FrontchannelLogoutSessionSupported">
+            <summary>
+            Gets or sets the frontchannel_logout_session_supported.
+            </summary>
+        </member>
+        <member name="P:Microsoft.IdentityModel.Protocols.OpenIdConnectConfiguration.FrontchannelLogoutSupported">
+            <summary>
+            Gets or sets the frontchannel_logout_supported.
             </summary>
         </member>
         <member name="P:Microsoft.IdentityModel.Protocols.OpenIdConnectConfiguration.EndSessionEndpoint">
@@ -1030,7 +1083,6 @@
             A derived <see cref="T:System.IdentityModel.Tokens.Saml2SecurityTokenHandler"/> that implements ISecurityTokenValidator, 
             which supports validating tokens passed as strings using <see cref="T:System.IdentityModel.Tokens.TokenValidationParameters"/>.
             </summary>
-                
         </member>
         <member name="M:Microsoft.IdentityModel.Tokens.Saml2SecurityTokenHandler.#ctor">
             <summary>
@@ -1206,7 +1258,6 @@
             A derived <see cref="T:System.IdentityModel.Tokens.Saml2SecurityTokenHandler"/> that implements ISecurityTokenValidator, 
             which supports validating tokens passed as strings using <see cref="T:System.IdentityModel.Tokens.TokenValidationParameters"/>.
             </summary>
-                
         </member>
         <member name="M:Microsoft.IdentityModel.Tokens.SamlSecurityTokenHandler.#ctor">
             <summary>

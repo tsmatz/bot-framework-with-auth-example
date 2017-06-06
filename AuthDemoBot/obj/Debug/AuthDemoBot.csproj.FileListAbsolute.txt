@@ -37,3 +37,43 @@ C:\Demo\AuthDemoBot\AuthDemoBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
 C:\Demo\AuthDemoBot\AuthDemoBot\obj\Debug\AuthDemoBot.csprojResolveAssemblyReference.cache
 C:\Demo\AuthDemoBot\AuthDemoBot\obj\Debug\Bot Application1.dll
 C:\Demo\AuthDemoBot\AuthDemoBot\obj\Debug\Bot Application1.pdb
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\Bot Application1.dll.config
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\Bot Application1.dll
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\Bot Application1.pdb
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\Autofac.dll
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\Chronic.dll
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\Microsoft.Bot.Builder.Autofac.dll
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\Microsoft.Bot.Builder.dll
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\Microsoft.Bot.Connector.dll
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\Newtonsoft.Json.dll
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\System.Net.Http.Formatting.dll
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\System.Web.Http.dll
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\System.Web.Http.WebHost.dll
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\Autofac.xml
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\Microsoft.Bot.Builder.xml
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\Microsoft.Bot.Builder.Autofac.xml
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\Microsoft.Bot.Connector.xml
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\Newtonsoft.Json.xml
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\System.Net.Http.Formatting.xml
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\System.Web.Http.xml
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\System.Web.Http.WebHost.xml
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\cs\Microsoft.Bot.Builder.resources.dll
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Demo\github\AuthDemoBot\AuthDemoBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Demo\github\AuthDemoBot\AuthDemoBot\obj\Debug\AuthDemoBot.csprojResolveAssemblyReference.cache
+C:\Demo\github\AuthDemoBot\AuthDemoBot\obj\Debug\Bot Application1.dll
+C:\Demo\github\AuthDemoBot\AuthDemoBot\obj\Debug\Bot Application1.pdb

@@ -1503,6 +1503,12 @@
             </summary>
             <exception cref="T:System.ArgumentException">if <see cref="T:System.String"/>.IsIsNullOrWhiteSpace('value') is true.</exception>
         </member>
+        <member name="P:System.IdentityModel.Tokens.JwtSecurityTokenHandler.SetDefaultTimesOnTokenCreation">
+            <summary>
+            Gets or sets a bool that controls if token creation will set default 'exp', 'nbf' and 'iat' if not specified.
+            </summary>
+            <remarks>See: <see cref="F:System.IdentityModel.Tokens.JwtSecurityTokenHandler.DefaultTokenLifetimeInMinutes"/>, <see cref="P:System.IdentityModel.Tokens.JwtSecurityTokenHandler.TokenLifetimeInMinutes"/> for defaults and configuration.</remarks>
+        </member>
         <member name="P:System.IdentityModel.Tokens.JwtSecurityTokenHandler.CanValidateToken">
             <summary>
             Returns 'true' which indicates this instance can validate a <see cref="T:System.IdentityModel.Tokens.JwtSecurityToken"/>.
