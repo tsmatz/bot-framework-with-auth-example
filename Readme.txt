@@ -25,11 +25,12 @@ AuthDemoWeb - https://{your demo web}
   - Application type must be "Web app / API"
   - Copy app id (client id)
   - Create key (client secret) and copy the value
-  - Register "https://{your demo web}/*" as Redirect Urls.
+  - Register "https://{your demo web}/*" as Reply URLs.
   - Register the required permission "Read user mail" (Mail.Read) in "Office 365 Exchange Online"
+  - Select "Yes" on "Multi-tenanted"
 
 5.Please fill your "ClientId" and "ClientSecret" in AuthDemoWeb\Web.config.
 
 6.Please fill https://{your demo web} as "AppWebSite" in both AuthDemoBot\Web.config and AuthDemoWeb\Web.config.
 
-7.Host your bot (https://{your demo bot}) and your web (https://{your demo web}) in the internet.
+7.Host both your bot (https://{your demo bot}) and your web (https://{your demo web}) in the internet.
