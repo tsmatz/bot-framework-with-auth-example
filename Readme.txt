@@ -1,5 +1,5 @@
 This project uses deprecated (obsolete) API. The following is new one.
-https://github.com/tsmatsuz/AuthDemoBot2
+https://github.com/tsmatz/AuthDemoBot2
 
 
 
