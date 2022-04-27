@@ -1,8 +1,5 @@
-This project uses deprecated (obsolete) API. The following is new one.
-https://github.com/tsmatz/AuthDemoBot2
-
-
-
+Note : This project uses deprecated (obsolete) API. The following is new one.
+https://github.com/tsmatz/bot-framework-with-auth-example2
 
 This solution is a super super simple bot sample code which is integrated with the OAuth authentication.
 Note that, because we want to show you the core logic (the code which shows how to integrate the authentication), this sample doesn't implement the several security code.
